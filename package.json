@@ -1,0 +1,22 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "### Легенда",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server --mode production",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.9.1",
+    "html-webpack-plugin": "^5.6.0",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.7.7",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
